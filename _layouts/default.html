@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>{% if page.lang == 'kr' %}{{ site.title_kr }}{% else %}{{ site.title }}{% endif %}</h1>
+                </div>
+                <ul class="nav-links">
+                    {% if page.lang == 'kr' %}
+                        <li><a href="{{ '/kr/' | relative_url }}">홈</a></li>
+                        <li><a href="{{ '/kr/overview.html' | relative_url }}">개요</a></li>
+                        <li><a href="{{ '/kr/projects.html' | relative_url }}">연구 프로젝트</a></li>
+                        <li><a href="{{ '/kr/tutorials.html' | relative_url }}">튜토리얼</a></li>
+                        <li class="lang-switch"><a href="{{ page.url | replace: '/kr/', '/en/' | relative_url }}">EN</a></li>
+                    {% else %}
+                        <li><a href="{{ '/en/' | relative_url }}">Home</a></li>
+                        <li><a href="{{ '/en/overview.html' | relative_url }}">Overview</a></li>
+                        <li><a href="{{ '/en/projects.html' | relative_url }}">Research Projects</a></li>
+                        <li><a href="{{ '/en/tutorials.html' | relative_url }}">Tutorials</a></li>
+                        <li class="lang-switch"><a href="{{ page.url | replace: '/en/', '/kr/' | relative_url }}">한국어</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Neuro-AI Grand Hackathon | 5 Labs Collaboration</p>
+        </div>
+    </footer>
+</body>
+</html>

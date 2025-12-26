@@ -1,0 +1,36 @@
+# Site settings
+title: "2026 Neuro-AI Grand Hackathon"
+title_kr: "2026 Neuro-AI 해커톤"
+description: "A collaborative neuroscience research hackathon bringing together 5 labs and 40 researchers"
+description_kr: "5개 랩 40명 연구원이 함께하는 뇌과학 연구 해커톤"
+baseurl: "/Hackathon_2026Winter"
+url: "https://yahyunee.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  teams:
+    output: true
+    permalink: /teams/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: "kr"
+    values:
+      lang: "kr"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
