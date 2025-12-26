@@ -7,6 +7,7 @@ lang: en
 <div class="hero">
   <h1>2026 Neuro-AI Grand Hackathon</h1>
   <p>A Collaborative Neuroscience Research Sprint</p>
+  <p><strong>📍 Wellpark Hotel, Gochang | 📅 January 18-23, 2026</strong></p>
   <div class="hero-stats">
     <div class="stat">
       <span class="stat-number">5</span>
@@ -21,7 +22,7 @@ lang: en
       <span class="stat-label">Teams</span>
     </div>
     <div class="stat">
-      <span class="stat-number">4</span>
+      <span class="stat-number">6</span>
       <span class="stat-label">Days</span>
     </div>
   </div>
@@ -29,10 +30,10 @@ lang: en
 
 <div class="card">
   <h2>Welcome to the 2026 Neuro-AI Grand Hackathon!</h2>
-  <p>This hackathon brings together 5 research labs and 40 talented researchers for an intensive 3-night, 4-day collaborative sprint focused on cutting-edge neuroscience and AI research.</p>
+  <p>This hackathon brings together 5 research labs and 40 talented researchers for an intensive 5-night, 6-day collaborative sprint focused on cutting-edge neuroscience and AI research.</p>
 
   <h3>🎯 What is a Hackathon?</h3>
-  <p>A hackathon is more than just a coding marathon - it's a <strong>research time machine</strong> that compresses 3 months of work into 3 nights and 4 days. It's where brilliant minds collaborate in an isolated environment to produce tangible results: trained models, benchmarking studies, and research prototypes.</p>
+  <p>A hackathon is more than just a coding marathon - it's a <strong>research time machine</strong> that compresses 3 months of work into 5 nights and 6 days. It's where brilliant minds collaborate in an isolated environment to produce tangible results: trained models, benchmarking studies, and research prototypes.</p>
 
   <h3>🔬 Our Mission</h3>
   <p>To accelerate neuroscience research through intensive collaboration, cross-lab knowledge sharing, and focused execution. We're not here to discuss - we're here to <strong>execute</strong>.</p>

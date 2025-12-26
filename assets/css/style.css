@@ -159,6 +159,24 @@ main {
     margin-bottom: 0.5rem;
 }
 
+/* Checkbox lists */
+.card ul li,
+ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+/* Keep regular bullets for non-checkbox lists */
+.card ul:not(:has(input[type="checkbox"])) li,
+ul:not(:has(input[type="checkbox"])) li {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
 /* Team Grid */
 .team-grid {
     display: grid;

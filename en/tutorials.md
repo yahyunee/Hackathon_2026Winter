@@ -6,11 +6,11 @@ lang: en
 
 # Tutorials & Preparation Guide
 
-<div class="card">
+<div class="card" markdown="1">
 
 ## Pre-Hackathon Preparation: Your Path to Success
 
-This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackathon. **Success depends on preparation** - those who come ready will experience the miracle of 3 nights and 4 days.
+This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackathon. **Success depends on preparation** - those who come ready will experience the miracle of 5 nights and 6 days.
 
 </div>
 
@@ -20,7 +20,7 @@ This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackatho
 
 ### Week 1-2: Research Planning
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 1. Define Your Research Question
 - [ ] Identify a specific, testable hypothesis
@@ -41,7 +41,7 @@ This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackatho
 
 ### Week 2-3: Data Preparation [CRITICAL]
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 2. Data Acquisition & Access
 - [ ] Identify exact datasets needed (fMRI, EEG, ECoG, ABCD, etc.)
@@ -67,7 +67,7 @@ This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackatho
 
 ### Week 3-4: Environment Setup
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 5. Development Environment
 - [ ] **GPU Access:** Confirm GPU server credentials and access
@@ -92,7 +92,7 @@ This guide will help you prepare thoroughly for the 2026 Neuro-AI Grand Hackatho
 
 ### Final Week: Team Coordination
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 7. Role Assignment
 Define clear roles for each team member:
@@ -117,7 +117,7 @@ Define clear roles for each team member:
 
 ### Tutorial 1: Data Preprocessing for Neuroimaging
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### fMRI Data Preprocessing Example
 ```python
@@ -160,7 +160,7 @@ raw_clean.save('subject_001_clean.fif')
 
 ### Tutorial 2: Setting Up GPU Environment
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### Check GPU Availability
 ```python
@@ -197,7 +197,7 @@ for epoch in range(num_epochs):
 
 ### Tutorial 3: Hybrid Parallelism for Large Models
 
-<div class="card">
+<div class="card" markdown="1">
 
 For teams working with very large models (e.g., ABCD dataset with 26TB):
 
@@ -242,7 +242,7 @@ Consult with GPU programming mentors on-site for optimization!
 
 ## 🎯 Day-by-Day Hackathon Strategy
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### Day 1: Setup & First Results
 - ✅ Environment setup complete (should take < 1 hour)
@@ -274,7 +274,7 @@ Consult with GPU programming mentors on-site for optimization!
 
 ## ❓ Frequently Asked Questions
 
-<div class="card">
+<div class="card" markdown="1">
 
 **Q: What if I don't have experience with GPU programming?**
 A: That's okay! We have GPU programming mentors available. Focus on getting your data and model ready, and they'll help with optimization.

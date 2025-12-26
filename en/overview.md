@@ -23,7 +23,7 @@ We block out daily distractions (emails, administrative work) and focus 100% on 
 
 ## Why is Preparation Critical?
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### For a 40-person, 5-lab Hackathon Success
 
@@ -74,7 +74,7 @@ The on-site is for **execution**, not discussion. To prevent 40 people from wand
 
 ## Expert Recommendations for Successful Hackathons
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 1. Tangible Outcomes
 

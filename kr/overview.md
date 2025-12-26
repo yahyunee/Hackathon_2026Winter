@@ -23,7 +23,7 @@ lang: kr
 
 ## 왜 사전 준비가 생명인가?
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 40명 규모, 5개 랩 연합 해커톤의 성공 필수 조건
 
@@ -74,7 +74,7 @@ Neuro-AI 데이터(fMRI, EEG, ECoG, ABCD Dataset 등)는 거대하고 복잡합�
 
 ## 성공적인 해커톤을 위한 전문가의 제언
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 1. Tangible Outcome (손에 잡히는 결과물)
 

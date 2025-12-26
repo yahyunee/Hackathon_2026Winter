@@ -99,7 +99,7 @@ The following table summarizes the tentative research topics and objectives of t
 
 ## Essential Pre-Hackathon Preparation Checklist
 
-All teams must complete the following items by **[Date]** and report to the team leader:
+All teams must complete the following items by **January 15, 2026** and report to the team leader:
 
 ### ✅ Research Topic Definition
 - [ ] Testable hypothesis established
@@ -119,10 +119,10 @@ All teams must complete the following items by **[Date]** and report to the team
 
 ## Related Events and Schedule
 
-The main hackathon event will be held at **[Place]** for 3 nights and 4 days starting from **[Date]**.
+The main hackathon event will be held at **Wellpark Hotel, Gochang, Jeollabuk-do** for 5 nights and 6 days from **January 18-23, 2026**.
 
 | Schedule | Content | Related Event |
 |----------|---------|---------------|
 | Preparation Deadline | Complete 3 essential preparations | Team Leader Confirmation |
 | Kick-off Meeting | Finalize objectives and milestones | Calendar event |
-| Main Hackathon Event | 3 nights 4 days intensive research and development | Calendar event |
+| **Main Hackathon Event** | **January 18-23, 2026** | **Wellpark Hotel, Gochang** |

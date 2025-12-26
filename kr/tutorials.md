@@ -6,11 +6,11 @@ lang: kr
 
 # 튜토리얼 & 준비 가이드
 
-<div class="card">
+<div class="card" markdown="1">
 
 ## 해커톤 사전 준비: 성공으로 가는 길
 
-이 가이드는 2026 Neuro-AI Grand Hackathon을 철저히 준비하는 데 도움을 드립니다. **성공은 준비에 달려있습니다** - 준비된 자만이 3박 4일의 기적을 경험할 수 있습니다.
+이 가이드는 2026 Neuro-AI Grand Hackathon을 철저히 준비하는 데 도움을 드립니다. **성공은 준비에 달려있습니다** - 준비된 자만이 5박 6일의 기적을 경험할 수 있습니다.
 
 </div>
 
@@ -20,7 +20,7 @@ lang: kr
 
 ### 1-2주차: 연구 계획 수립
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 1. 연구 질문 정의
 - [ ] 구체적이고 검증 가능한 가설 수립
@@ -41,7 +41,7 @@ lang: kr
 
 ### 2-3주차: 데이터 준비 [가장 중요]
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 2. 데이터 확보 및 접근
 - [ ] 필요한 정확한 데이터셋 식별 (fMRI, EEG, ECoG, ABCD 등)
@@ -67,7 +67,7 @@ lang: kr
 
 ### 3-4주차: 환경 설정
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 5. 개발 환경
 - [ ] **GPU 접근:** GPU 서버 인증 정보 및 접근 확인
@@ -92,7 +92,7 @@ lang: kr
 
 ### 마지막 주: 팀 조율
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### 7. 역할 분담
 각 팀원의 명확한 역할 정의:
@@ -117,7 +117,7 @@ lang: kr
 
 ### 튜토리얼 1: 뇌영상 데이터 전처리
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### fMRI 데이터 전처리 예시
 ```python
@@ -160,7 +160,7 @@ raw_clean.save('subject_001_clean.fif')
 
 ### 튜토리얼 2: GPU 환경 설정
 
-<div class="card">
+<div class="card" markdown="1">
 
 #### GPU 사용 가능 여부 확인
 ```python
@@ -197,7 +197,7 @@ for epoch in range(num_epochs):
 
 ### 튜토리얼 3: 대규모 모델을 위한 하이브리드 병렬화
 
-<div class="card">
+<div class="card" markdown="1">
 
 매우 큰 모델을 다루는 팀을 위해 (예: 26TB ABCD 데이터셋):
 
@@ -242,7 +242,7 @@ model = DistributedDataParallel(model)
 
 ## 🎯 해커톤 일별 전략
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 1일차: 설정 및 첫 결과
 - ✅ 환경 설정 완료 (1시간 이내)
@@ -274,7 +274,7 @@ model = DistributedDataParallel(model)
 
 ## ❓ 자주 묻는 질문
 
-<div class="card">
+<div class="card" markdown="1">
 
 **Q: GPU 프로그래밍 경험이 없으면 어떻게 하나요?**
 A: 괜찮습니다! GPU 프로그래밍 멘토가 있습니다. 데이터와 모델 준비에 집중하면 최적화를 도와드립니다.
